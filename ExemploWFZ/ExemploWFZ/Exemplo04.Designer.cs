@@ -114,6 +114,7 @@
             this.gb_gostadejogo.Size = new System.Drawing.Size(138, 117);
             this.gb_gostadejogo.TabIndex = 6;
             this.gb_gostadejogo.TabStop = false;
+            this.gb_gostadejogo.Enter += new System.EventHandler(this.gb_gostadejogo_Enter);
             // 
             // gb_nomedojogo
             // 

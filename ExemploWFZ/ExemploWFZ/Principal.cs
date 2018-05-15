@@ -46,5 +46,11 @@ namespace ExemploWFZ
             Exemplo05 form4 = new Exemplo05();
             form5.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Exemplo06 form6 = new Exemplo06();
+            form6.Show();
+        }
     }
 }

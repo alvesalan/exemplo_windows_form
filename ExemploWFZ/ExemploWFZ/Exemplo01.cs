@@ -143,5 +143,10 @@ namespace ExemploWFZ
                 throw;
             }
         }
+
+        private void txtResultado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

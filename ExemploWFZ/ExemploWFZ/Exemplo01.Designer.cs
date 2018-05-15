@@ -191,6 +191,7 @@
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(351, 204);
             this.txtResultado.TabIndex = 15;
+            this.txtResultado.TextChanged += new System.EventHandler(this.txtResultado_TextChanged);
             // 
             // txtIdade
             // 
@@ -218,7 +219,7 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // Exemplo01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -244,7 +245,7 @@
             this.Controls.Add(this.txtNota1);
             this.Controls.Add(this.Nome);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Exemplo01";
             this.Text = "Exemplo01";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

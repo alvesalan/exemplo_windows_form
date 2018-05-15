@@ -74,6 +74,12 @@
     <Compile Include="Exemplo05.Designer.cs">
       <DependentUpon>Exemplo05.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exemplo06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exemplo06.Designer.cs">
+      <DependentUpon>Exemplo06.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exemplo05.resx">
       <DependentUpon>Exemplo05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exemplo06.resx">
+      <DependentUpon>Exemplo06.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

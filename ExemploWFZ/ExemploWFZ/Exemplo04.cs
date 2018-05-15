@@ -37,5 +37,15 @@ namespace Exemplo04
                 gb_nomedojogo.Visible = false;
             }
         }
+
+
+
+
+
+
+        private void gb_gostadejogo_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
